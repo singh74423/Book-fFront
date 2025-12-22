@@ -10,7 +10,7 @@ function Course() {
     const getBook = async () => {
       try {
         const res = await axios.get(
-          "https://book-backend-cjs3.onrender.com/api/book"
+           "https://book-backend-cjs3.onrender.com/book"
         );
         setBook(res.data.books || res.data);
       } catch (error) {
