@@ -3,13 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://singh74423.github.io/versal-frontend",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint .",
-    "deploy": "gh-pages -d dist"
+    "lint": "eslint ."
   },
   "dependencies": {
     "axios": "^1.12.2",
@@ -34,6 +32,6 @@
     "vite": "^7.2.1"
   },
   "engines": {
-    "node": ">=18"
+    "node": "18.x"
   }
 }
