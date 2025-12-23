@@ -15,7 +15,7 @@
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.65.0",
     "react-hot-toast": "^2.6.0",
-    "react-router-dom": "^7.9.4",
+    "react-router-dom": "^6.26.2",
     "react-slick": "^0.31.0",
     "slick-carousel": "^1.8.1",
     "tailwindcss": "^4.1.14"
@@ -31,6 +31,6 @@
     "vite": "^5.4.0"
   },
   "engines": {
-    "node": "18"
+    "node": "18.x"
   }
 }
